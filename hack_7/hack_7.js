@@ -12,6 +12,11 @@ let foo = {
 };
 let result;
 
+result = foo.skills.map(function(item) {
+    return item
+});
+
+//console.log(result)
 
 //export result
 module.exports = result; 

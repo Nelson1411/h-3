@@ -9,6 +9,16 @@
 let arr = [{a:1},{b:2},{c:3},{d:4},{e:5}];
 let result = [];
 
+let i = 0;
+let len = arr.length-1;
+
+for(;i<=len;i++){
+    let propiedad = arr[i]
+    result.push(Object.values(propiedad)[0])
+
+};
+
+//console.log(result);
 
 //export result
 module.exports = result;
